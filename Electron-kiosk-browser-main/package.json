@@ -1,0 +1,27 @@
+{
+  "name": "FocuseFlow",
+  "version": "1.0.0",
+  "description": "This is a kiosk mode application using electron js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.CS.FocusFlow",
+    "productName": "FocuseFlow",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "C:\\\\Users\\\\anand\\\\OneDrive\\\\Documents\\\\vs\\\\Finnal_year_project\\\\et\\\\New folder (2)\\\\my-electron-kiosk\\\\res\\\\study.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^30.0.1",
+    "electron-builder": "^22.14.13"
+  },
+  "dependencies": {
+  }
+}
